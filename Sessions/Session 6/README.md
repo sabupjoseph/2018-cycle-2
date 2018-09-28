@@ -140,7 +140,11 @@ And if this set is big one, it's **Deep Convolution networks**, the deep learnin
 
 > ### Assignment:
 1. Why is the kernel size always odd?
+With an odd sized kernel symmetry around the central weight can be achieved. Basically this will capture the characterstics or informartion of all pixels around the central one from the source.  Mathematically  the shape of such a kernel that can bring symmetry is 2*n + 1 where  n = 1, 2 , 3...
 2. What is stochastic pooling
+   In stochastic pooling, an activation that best represents the distribution  from a set of slightly deformed pixel reprsenatation from the frame  is selected instead of one that represent the max or average. This helps to address the issue overfitting  in case of max pooling, or under representation in case of average pooling
+https://arxiv.org/pdf/1301.3557.pdf   
+
 
 ---
 
